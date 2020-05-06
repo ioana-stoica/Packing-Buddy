@@ -1,0 +1,16 @@
+@import "variables";
+@import "fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $body-font;
+  color:$defaultColor;
+  h3 {
+    color: $headersColor;
+  }
+}
