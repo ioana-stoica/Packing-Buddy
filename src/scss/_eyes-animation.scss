@@ -1,0 +1,61 @@
+
+.move-area {
+  width: 50vw;
+  height: 50vh;
+  padding: 10% 30%;
+  border: 1px solid black;
+
+  .animation-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .ears {
+      background-color: rosybrown;
+      border-radius: 60%;
+      width: 35px;
+      height: 35px;
+      border: 10px solid saddlebrown;
+    }
+
+    .left-ear {
+      margin-right: -18px;
+    }
+
+    .right-ear {
+      margin-left: -18px;
+    }
+
+    .face {
+      background-color: saddlebrown;
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+
+      .eye {
+        position: relative;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        background-color: #CCC;
+        margin-top: 10px;
+        &::after {
+          position: absolute;
+          bottom: 15px;
+          right: 10px;
+          width: 10px;
+          height: 10px;
+          background: #000;
+          border-radius: 50%;
+          content: " ";
+        }
+      }
+
+    }
+
+
+  }
+}
+
